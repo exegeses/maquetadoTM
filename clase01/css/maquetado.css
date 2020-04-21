@@ -1,18 +1,25 @@
+
 body{
     background-color: #F4DEC8;
     color: #33302A;
-    font-family: Helvetica;
+    font-family: Raleway, sans-serif;
     font-size: 1.2em;
+
 }
 header{
     background-color: #33302A;
+    height: 140px;
 }
 nav{
     background-color: #706946;
+    height: 60px;
 }
 main{
-
+    min-height: 550px;
+    width: 1024px;
+    margin: auto;
 }
 footer{
     background-color: #33302A;
+    height: 150px;
 }
