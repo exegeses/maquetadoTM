@@ -28,7 +28,8 @@ a código HTML y CSS el proyecto web que vayamos a realizar
  
 ### 1. Selector de Etiqueta
 >El selector de etiqueta se escribe igual que la etiqueta
->pero sin < > y sirve para modificar la estética de una etiqeuta
+>pero sin < >   
+>y sirve para modificar la estética de una etiqeuta
 >cada vez que aparezca
 
 ## Elementos de línea vs Elementos de bloque
@@ -40,7 +41,7 @@ a código HTML y CSS el proyecto web que vayamos a realizar
 
 ## Box Model (modelo de caja)
 
->En HTML *todos* los elementos son contenedores
+>En HTML **todos** los elementos son contenedores
 >(a veces diremos todos son cajas)
 > a excepción de las interrupciones
 
@@ -50,11 +51,11 @@ a código HTML y CSS el proyecto web que vayamos a realizar
  
 ### Links de referencia
 
-> Plugin o extensión Emmet https://docs.emmet.io/abbreviations/syntax/
+> Plugin o extensión Emmet https://docs.emmet.io/abbreviations/syntax/  
 > Chuleta https://docs.emmet.io/cheat-sheet/
 
-> Balsamiq https://balsamiq.com/
-> Lucidchart https://www.lucidchart.com/
-> Pidoco https://pidoco.com
-> Wireframe.cc https://wireframe.cc/
+> Balsamiq https://balsamiq.com/  
+> Lucidchart https://www.lucidchart.com/  
+> Pidoco https://pidoco.com  
+> Wireframe.cc https://wireframe.cc/  
 > Adobe XD https://creativecloud.adobe.com/apps/download/xd?promoid=B8NR3RT1&mv=other
