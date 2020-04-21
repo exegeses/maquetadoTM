@@ -14,3 +14,8 @@ a código HTML y CSS el proyecto web que vayamos a realizar
             objeto
     </elemento>
     
+## Fórmula del CSS
+
+    selector {
+        atributo: valor;
+    }
