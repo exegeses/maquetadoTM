@@ -1,0 +1,20 @@
+
+body{
+    background-color: #d8d8d8;
+    color: #3e5246;
+    font-family: Rotis, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+p{
+    background-color: #fff;
+    padding: 12px;
+    border: #4e555d dashed 1px;
+}
+
+li{
+    background-color: #ccebfa;
+    width: 150px;
+    margin: 10px;
+}
+
