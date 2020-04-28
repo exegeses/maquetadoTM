@@ -3,13 +3,17 @@ body{
 }
 #encabezado{
     background-color: #262402;
+    height: 150px;
 }
 #menu{
     background-color: #594E45;
+    height: 60px;
 }
 #contenido{
     background-color: #BFBCBA;
+    min-height: 500px;
 }
 #pie{
     background-color: #262402;
+    height: 150px;
 }
