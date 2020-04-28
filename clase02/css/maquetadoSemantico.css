@@ -1,0 +1,36 @@
+body{
+    background-color: #8C837B;
+    color: #262402;
+    font-family: Raleway, sans-serif;
+    font-size: 1.2em;
+}
+header{
+    background-color: #262402;
+    height: 150px;
+}
+nav{
+    background-color: #594E45;
+    height: 60px;
+    text-align: center; /* los elementos de línea dentro de nav */
+}
+
+    nav a{
+        text-decoration: none;
+        color: #BFBCBA;
+        background-color: #594E45;
+        padding: 18px 30px;
+        display: inline-block;
+    }
+    nav a:hover{
+        color: #f0edeb;
+        background-color: #746960;
+    }
+
+main{
+    background-color: #BFBCBA;
+    min-height: 500px;
+}
+footer{
+    background-color: #262402;
+    height: 150px;
+}
