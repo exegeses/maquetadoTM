@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 900px;
+    margin: auto;
+    font-family: Raleway;
+    font-size: 1.2em;
+}
+h1, h2{
+    margin: 25px 0;
+}
+
+/* contenedores  */
+#contenedor, #contenedor2, #contenedor3, #contenedor4, #contenedor5 {
+    background-color: #ccc;
+    min-height: 300px;
+    display: flex;
+}
+
+    article{
+        background-color: #fff;
+        width: 200px;
+        height: 100px;
+        text-align: center;
+        margin: 20px;
+    }
+
+/* dirección de los elementos contenidos */
+#contenedor{
+    flex-direction: row; /* predeterminado */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+}
+
+/* como se manejan la distribución de los contenidos y sus anchos */
+
+#contenedor2{
+    flex-direction: row;
+    flex-wrap: nowrap; /* predeterminado */
+    flex-wrap: wrap; /* respeta los anchos */
+}
+
+#contenedor3{
+    flex-direction: row;
+    flex-wrap: wrap; /* respeta los anchos */
+    justify-content: flex-start; /* predeterminado */
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly; /* no respeta margin */
+}
+
+#contenedor4{
+    flex-direction: row;
+    flex-wrap: wrap; /* respeta los anchos */
+    justify-content: space-evenly;
+
+    align-content: flex-start; /* predeterminado */
+    align-content: flex-end;
+    align-content: center; /* centrado en vertical */
+}
+
+#contenedor5{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: stretch; /* estira en vertical las cajas */
+}
+    #contenedor5 article{
+        height: initial; /* para quitarle la altura */
+    }
