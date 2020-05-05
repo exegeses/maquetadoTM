@@ -21,3 +21,14 @@ main{
     width: 980px;
     margin: auto;
 }
+    #articulos article{
+        width: 300px;
+        display: inline-block;
+        margin: 20px 0px 0px 20px;
+    }
+
+    #promo{
+        margin: 30px auto;
+        width: 940px;
+        background-color: #BFBFBF;
+    }
