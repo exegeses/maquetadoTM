@@ -7,3 +7,29 @@ body{
     width: 960px;
     margin: auto;
 }
+header, footer{
+    background-color: #1A4040;
+    height: 150px;
+}
+nav{
+    background-color: #6AA69B;
+    height: 60px;
+}
+main{
+    background-color: #B0D9D5;
+    min-height: 500px;
+}
+    main article{
+        background-color: #d7fcfa;
+        height: 200px;
+        width: 450px;
+        /* display: inline-block; */
+        float: left;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    main hr{
+        height: 20px;
+        clear: both;
+        border: none;
+    }
