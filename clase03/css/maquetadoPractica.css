@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     background-color: #F9F9F9;
@@ -31,4 +32,5 @@ main{
         margin: 30px auto;
         width: 940px;
         background-color: #BFBFBF;
+        padding: 15px;
     }
