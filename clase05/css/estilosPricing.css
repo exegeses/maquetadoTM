@@ -1,0 +1,65 @@
+html {
+    font-size: 14px;
+}
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+
+.container {
+    max-width: 960px;
+}
+
+.pricing-header {
+    max-width: 700px;
+}
+
+.card-deck .card {
+    min-width: 220px;
+}
+
+#misCards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    #misCards article{
+        border: 1px solid #ddd;
+        border-radius: 3px;
+        box-shadow: 0 1px 2px #ccc;
+        width: 290px;
+        text-align: center;
+    }
+    #misCards article header{
+        background-color: #F7F7F7;
+        border-bottom: solid #ddd 1px;
+        font-size: 25px;
+    }
+    .precio{
+        font-size: 40px;
+    }
+    .mes{
+        font-size: 30px;
+        color: #6D757D;
+    }
+    #misCards ul{
+        list-style-type: none;
+    }
+
